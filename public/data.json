@@ -1,0 +1,342 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Question Number 1",
+      "variants": [
+        {
+          "id": "A",
+          "text": "Variant 1 (right)"
+        },
+        {
+          "id": "B",
+          "text": "Variant 2"
+        },
+        {
+          "id": "C",
+          "text": "Variant 3"
+        },
+        {
+          "id": "D",
+          "text": "Variant 4"
+        }
+      ],
+      "rightVariantId": ["A"]
+    },
+    {
+      "id": 2,
+      "question": "Question Number 2",
+      "variants": [
+        {
+          "id": "A",
+          "text": "Variant 1"
+        },
+        {
+          "id": "B",
+          "text": "Variant 2 (right)"
+        },
+        {
+          "id": "C",
+          "text": "Variant 3"
+        },
+        {
+          "id": "D",
+          "text": "Variant 4"
+        }
+      ],
+      "rightVariantId": ["B"]
+    },
+    {
+      "id": 3,
+      "question": "Question Number 3",
+      "variants": [
+        {
+          "id": "A",
+          "text": "Variant 1"
+        },
+        {
+          "id": "B",
+          "text": "Variant 2"
+        },
+        {
+          "id": "C",
+          "text": "Variant 3 (right)"
+        },
+        {
+          "id": "D",
+          "text": "Variant 4"
+        }
+      ],
+      "rightVariantId": ["C"]
+    },
+    {
+      "id": 4,
+      "question": "Question Number 4",
+      "variants": [
+        {
+          "id": "A",
+          "text": "Variant 1"
+        },
+        {
+          "id": "B",
+          "text": "Variant 2"
+        },
+        {
+          "id": "C",
+          "text": "Variant 3"
+        },
+        {
+          "id": "D",
+          "text": "Variant 4 (right)"
+        }
+      ],
+      "rightVariantId": ["D"]
+    },
+    {
+      "id": 5,
+      "question": "Question Number 5",
+      "variants": [
+        {
+          "id": "A",
+          "text": "Variant 1"
+        },
+        {
+          "id": "B",
+          "text": "Variant 2"
+        },
+        {
+          "id": "C",
+          "text": "Variant 3"
+        },
+        {
+          "id": "D",
+          "text": "Variant 4 (right)"
+        }
+      ],
+      "rightVariantId": ["D"]
+    },
+    {
+      "id": 6,
+      "question": "Question Number 6",
+      "variants": [
+        {
+          "id": "A",
+          "text": "Variant 1"
+        },
+        {
+          "id": "B",
+          "text": "Variant 2"
+        },
+        {
+          "id": "C",
+          "text": "Variant 3 (right)"
+        },
+        {
+          "id": "D",
+          "text": "Variant 4"
+        }
+      ],
+      "rightVariantId": ["C"]
+    },
+    {
+      "id": 7,
+      "question": "Question Number 7",
+      "variants": [
+        {
+          "id": "A",
+          "text": "Variant 1"
+        },
+        {
+          "id": "B",
+          "text": "Variant 2 (right)"
+        },
+        {
+          "id": "C",
+          "text": "Variant 3"
+        },
+        {
+          "id": "D",
+          "text": "Variant 4"
+        }
+      ],
+      "rightVariantId": ["B"]
+    },
+    {
+      "id": 8,
+      "question": "Question Number 8",
+      "variants": [
+        {
+          "id": "A",
+          "text": "Variant 1 (right)"
+        },
+        {
+          "id": "B",
+          "text": "Variant 2"
+        },
+        {
+          "id": "C",
+          "text": "Variant 3"
+        },
+        {
+          "id": "D",
+          "text": "Variant 4"
+        }
+      ],
+      "rightVariantId": ["A"]
+    },
+    {
+      "id": 9,
+      "question": "Question Number 9",
+      "variants": [
+        {
+          "id": "A",
+          "text": "Variant 1 (right)"
+        },
+        {
+          "id": "B",
+          "text": "Variant 2"
+        },
+        {
+          "id": "C",
+          "text": "Variant 3"
+        },
+        {
+          "id": "D",
+          "text": "Variant 4"
+        }
+      ],
+      "rightVariantId": ["A"]
+    },
+    {
+      "id": 10,
+      "question": "Question Number 10",
+      "variants": [
+        {
+          "id": "A",
+          "text": "Variant 1"
+        },
+        {
+          "id": "B",
+          "text": "Variant 2 (right)"
+        },
+        {
+          "id": "C",
+          "text": "Variant 3"
+        },
+        {
+          "id": "D",
+          "text": "Variant 4"
+        }
+      ],
+      "rightVariantId": ["B"]
+    },
+    {
+      "id": 11,
+      "question": "Question Number 11",
+      "variants": [
+        {
+          "id": "A",
+          "text": "Variant 1"
+        },
+        {
+          "id": "B",
+          "text": "Variant 2"
+        },
+        {
+          "id": "C",
+          "text": "Variant 3 (right)"
+        },
+        {
+          "id": "D",
+          "text": "Variant 4"
+        }
+      ],
+      "rightVariantId": ["C"]
+    },
+    {
+      "id": 12,
+      "question": "Question Number 12",
+      "variants": [
+        {
+          "id": "A",
+          "text": "Variant 1"
+        },
+        {
+          "id": "B",
+          "text": "Variant 2"
+        },
+        {
+          "id": "C",
+          "text": "Variant 3"
+        },
+        {
+          "id": "D",
+          "text": "Variant 4 (right)"
+        }
+      ],
+      "rightVariantId": ["D"]
+    }
+  ],
+  "gifts": [
+    {
+      "id": 12,
+      "numberOfRightAnswers": 12,
+      "gift": "$1000000"
+    },
+    {
+      "id": 11,
+      "numberOfRightAnswers": 11,
+      "gift": "$500000"
+    },
+    {
+      "id": 10,
+      "numberOfRightAnswers": 10,
+      "gift": "$250000"
+    },
+    {
+      "id": 9,
+      "numberOfRightAnswers": 9,
+      "gift": "$125000"
+    },
+    {
+      "id": 8,
+      "numberOfRightAnswers": 8,
+      "gift": "$64000"
+    },
+    {
+      "id": 7,
+      "numberOfRightAnswers": 7,
+      "gift": "$32000"
+    },
+    {
+      "id": 6,
+      "numberOfRightAnswers": 6,
+      "gift": "$16000"
+    },
+    {
+      "id": 5,
+      "numberOfRightAnswers": 5,
+      "gift": "$8000"
+    },
+    {
+      "id": 4,
+      "numberOfRightAnswers": 4,
+      "gift": "$4000"
+    },
+    {
+      "id": 3,
+      "numberOfRightAnswers": 3,
+      "gift": "$2000"
+    },
+    {
+      "id": 2,
+      "numberOfRightAnswers": 2,
+      "gift": "$1000"
+    },
+    {
+      "id": 1,
+      "numberOfRightAnswers": 1,
+      "gift": "$500"
+    }
+  ]
+}

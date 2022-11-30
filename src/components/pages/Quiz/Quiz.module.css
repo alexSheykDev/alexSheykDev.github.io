@@ -1,0 +1,127 @@
+.quiz {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: var(--black-5);
+}
+
+.question_area {
+  grid-area: 'question';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.question {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--black-100);
+  line-height: 116%;
+  margin-top: 136px;
+}
+
+.gift_area {
+  position: absolute;
+  grid-area: 'gift';
+  height: 100vh;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translate(150%);
+  gap: 8px 0;
+  background: var(--white);
+  transition: transform 0.5s ease-in-out;
+  
+}
+
+.gift_area_opened {
+  transform: translate(0);
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  z-index: 4;
+}
+
+.variants_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.close_icon {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.menu_icon {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .question_area {
+    padding-left: 80px;
+  }
+
+  .variants_container {
+    max-width: 576px;
+    align-items: flex-start;
+    padding: 0 17px;
+    margin-bottom: 122px;
+  }
+
+  .gift_area {
+    display: flex;
+    position: relative;
+    transform: translate(0);
+  }
+
+  .question {
+    font-size: 32px;
+    text-align: left;
+    max-width: 624px;
+  }
+
+  .close_icon,
+  .menu_icon {
+    display: none;
+  }
+
+  .quiz {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    grid-template-areas: 'question gift';
+  }
+}
+
+@media only screen and (min-width: 988px) {
+  .quiz {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    grid-template-areas: 'question gift';
+  }
+
+  .variants_container {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .variants_container {
+    max-width: 812px;
+  }
+}

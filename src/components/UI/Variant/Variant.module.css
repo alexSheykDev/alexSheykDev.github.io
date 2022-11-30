@@ -1,0 +1,95 @@
+.variant {
+  width: 288px;
+  height: 56px;
+  position: relative;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.variant:before,
+.variant:after {
+  content: '';
+  display: block;
+  width: 18px;
+  border-bottom: solid 1px var(--black-40);
+  position: absolute;
+  top: 46%;
+  z-index: 1;
+}
+
+.variant:after {
+  right: -16px;
+}
+.variant:before {
+  left: -16px;
+}
+
+.variant:hover:not(.variant_correct, .variant_wrong, .variant_selected) .variant_path {
+  stroke: var(--orange-100);
+}
+
+.variant:hover::after,
+.variant:hover::before {
+  border-color: var(--orange-100);
+}
+
+.variant_correct .variant_path {
+  stroke: var(--green-100);
+  fill: var(--green-5);
+}
+
+.variant_correct.variant::after,
+.variant_correct.variant::before {
+  border-color: var(--green-100);
+}
+
+.variant_wrong .variant_path {
+  stroke: var(--red-100);
+  fill: var(--red-5);
+}
+
+.variant_wrong.variant::after,
+.variant_wrong.variant::before {
+  border-color: var(--red-100);
+}
+
+.variant_selected .variant_path {
+  stroke: var(--orange-100);
+  fill: var(--orange-5);
+}
+
+.variant_selected.variant::after,
+.variant_selected.variant::before {
+  border-color: var(--orange-100);
+}
+
+.variant_text {
+  font-size: 14px;
+  line-height: 116%;
+  color: var(--black-100);
+}
+
+.variant_label {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .variant {
+    width: 390px;
+    height: 72px;
+  }
+
+  .variant:before,
+  .variant:after {
+    top: 49%;
+  }
+
+  .variant_text,
+  .variant_label {
+    font-size: 20px;
+  }
+}
